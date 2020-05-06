@@ -1,11 +1,13 @@
 const makeCheeseSandwich = () => {
-    "slice of bread"
-    'slice of cheese'
-    'slice of bread'
+    //"slice of bread"
+    //'slice of cheese'
+    //slice of bread'
 }
 
 const makeSandwichWith = (topping) => {
-    console.log("Make a sandwich with " + topping + ", please.");
+    console.log("Add a slice of bread.");
+    console.log("Add a slice of " + topping + ".");
+    console.log("Add a slice of bread.")
 }
 makeSandwichWith("cheese");
 
